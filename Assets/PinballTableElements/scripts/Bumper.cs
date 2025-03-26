@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Bumper : MonoBehaviour
 {
-    public float bounceForce = 10f; // Adjust as needed
+    public float bounceForce = 10f;
 
     private void OnCollisionEnter(Collision collision)
     {
