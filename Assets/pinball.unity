@@ -574,6 +574,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5780679390258624488, guid: 81b9f47e13419434e9461439784dae36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2075173022}
+    - targetCorrespondingSourceObject: {fileID: 5780679390258624488, guid: 81b9f47e13419434e9461439784dae36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2075173025}
   m_SourcePrefab: {fileID: 100100000, guid: 81b9f47e13419434e9461439784dae36, type: 3}
 --- !u!1001 &288184086
 PrefabInstance:
@@ -1530,6 +1533,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5780679390258624488, guid: 81b9f47e13419434e9461439784dae36, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1913414022}
+    - targetCorrespondingSourceObject: {fileID: 5780679390258624488, guid: 81b9f47e13419434e9461439784dae36, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1913414025}
   m_SourcePrefab: {fileID: 100100000, guid: 81b9f47e13419434e9461439784dae36, type: 3}
 --- !u!1 &750014527 stripped
 GameObject:
@@ -4205,7 +4211,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.04428053, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -4277,6 +4283,27 @@ MonoBehaviour:
   hitStrength: 10000
   flipperDamper: 150
   inputName: LFlipper
+--- !u!65 &1913414025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786636340}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.7199304, y: 0.8497957, z: 1.1624784}
+  m_Center: {x: -1.2784138, y: -0.38061732, z: 0.0020328949}
 --- !u!1001 &1920479862
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4753,7 +4780,7 @@ HingeJoint:
   m_ConnectedBody: {fileID: 0}
   m_ConnectedArticulationBody: {fileID: 0}
   m_Anchor: {x: 0, y: 0.04428059, z: 0}
-  m_Axis: {x: 1, y: 0, z: 0}
+  m_Axis: {x: 0, y: 1, z: 0}
   m_AutoConfigureConnectedAnchor: 1
   m_ConnectedAnchor: {x: 0, y: 0, z: 0}
   m_UseSpring: 0
@@ -4770,8 +4797,8 @@ HingeJoint:
   m_ExtendedLimits: 0
   m_UseAcceleration: 0
   m_Limits:
-    min: -45
-    max: 0
+    min: 0
+    max: 45
     bounciness: 0
     bounceMinVelocity: 0.2
     contactDistance: 0
@@ -4825,6 +4852,27 @@ MonoBehaviour:
   hitStrength: 10000
   flipperDamper: 150
   inputName: RFlipper
+--- !u!65 &2075173025
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2054903244}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 3.71993, y: 0.84979564, z: 1.1624782}
+  m_Center: {x: -1.2784137, y: -0.38061723, z: 0.0020337743}
 --- !u!4 &2084965595 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7188904353053364931, guid: 4e5d00e1a89abed418de00fb33af4aa4, type: 3}
